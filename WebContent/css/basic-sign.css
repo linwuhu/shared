@@ -1,0 +1,147 @@
+@CHARSET "UTF-8";
+body,form{
+    margin: 0;
+    padding: 0;
+
+}
+h3{
+    color: #ffffff;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+}
+input[type="text"],input[type="password"]{
+    width: 83%;
+    padding: 10px 10px 10px 10px;
+    font-weight: normal;
+    background: none;
+    border: 1px solid #8FA4B9;
+    color: #ffffff  ;
+    outline: none;
+    font-size: 14px;
+    margin: 6px 0 17px 0;
+}
+input[type="submit"]{
+    width: 312px;
+    height: 40px;
+    background:#0ab5ae;
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 4px;
+    border: none;
+    cursor:pointer;
+    margin: 15px 0 20px 0;
+}
+ input[type="text"]:hover,input[type="password"]:hover{
+    border: 1px solid #0ab5ae;
+}
+input[type="submit"]:hover {
+    background: #0fe3ef;
+}
+input::-webkit-input-placeholder{
+    color: #fff;
+}
+
+
+/************************登录&&&注册**********/
+
+#function{
+    width: 100%;
+    height: 1121px;
+    text-align: center;
+    background: url("../imgs/3.jpg") no-repeat fixed center ;
+}
+#function .content{
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -110px 0 0 -145px;
+    background:rgba(93, 125, 189, 0.3);
+}
+#function .content .login{
+	margin-top: 19px;
+}
+#function input[type="button"]{
+    width: 300px;
+    height: 40px;
+    background:#0ab5ae;
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 4px;
+    border: none;
+    cursor:pointer;
+    margin: 15px 0 20px 0;
+}
+#function input[type="button"]:hover {
+    background:#0fe3ef;
+}
+
+
+/**************************登录******************************/
+
+#panel .form-body{
+    padding:24px 35px 35px;
+}
+#panel{
+    width: 100%;
+    height: 1121px;
+    text-align: center;
+    background: url("../imgs/3.jpg") no-repeat fixed center ;
+}
+#panel .content{
+
+    height: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0 0 -170px;
+
+}
+#panel .login{
+    width: 350px;
+    height: 350px;
+    background:rgba(93, 125, 189, 0.3);
+    float: left;
+    margin: 20px ;
+
+}
+#panel .admin{
+    margin-left: 20px;
+}
+#panel input[type="submit"]{
+    width: 91% !important;
+}
+
+/*    忘记密码样式
+a.forgot {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.875em;
+}*/
+
+
+
+/*************************注册*********************/
+#register{
+    width: 100%;
+    height: 1121px;
+    text-align: center;
+    background: url("../imgs/3.jpg") no-repeat fixed center ;
+}
+#register .content{
+    width: 400px;
+
+    background:rgba(93, 125, 189, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 -200px;
+}
+#register .register{
+    width: 350px;
+    margin: 35px auto;
+}
+
+
+

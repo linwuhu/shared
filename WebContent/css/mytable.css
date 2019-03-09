@@ -1,0 +1,40 @@
+#info {
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#info table{
+	width: 600px;
+	border-collapse:collapse;
+}
+
+#info .title{
+	height: 40px;
+	text-align: center;
+	font-family: "ËÎÌו";
+	font-size: 16px;
+	line-height: 40px;
+	font-weight: bold;
+	display: block;
+}
+
+#info td{
+	height: 30px;
+	border: 1px solid #333;
+}
+
+#info .td1{
+	font-size: 14px;
+	line-height: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#info .td2{
+	font-size: 14px;
+	line-height: 30px;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 5px;
+}
